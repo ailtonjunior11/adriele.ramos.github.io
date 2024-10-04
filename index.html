@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adriele Ramos - Loja de Roupas</title>
+  <!-- Google fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+  <!-- Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header com Logo e Menu -->
+  <header>
+    <!-- <div class="logo">
+      <h1>Adriele Ramos</h1>
+    </div> -->
+    <nav class="navbar" id="navbar">
+      <button aria-label="Abrir menu" class="btn__mobile" id="btn-mobile" aria-haspopup="true" aria-controls="nav-list"
+        aria-expanded="false">
+        <span class="burguer" id="burguer"></span>
+      </button>
+
+      <ul id="nav-list" role="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#caracteristicas">Características</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#comentarios">Comentários</a></li>
+      </ul>
+    </nav>
+    <div class="menu__bg" id="menu-bg"></div>
+  </header>
+
+  <!-- Seção Home -->
+  <section id="home" class="section-home">
+    <div class="home-content">
+      <div class="home-text">
+        <h2 class="headline">Descubra o Estilo Perfeito Para Você!</h2>
+        <p class="description">Explore nossa coleção única de roupas que combinam elegância e estilo, desenhadas
+          especialmente para realçar sua personalidade.</p>
+        <a href="#produtos" class="btn">Ver Produtos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Características -->
+  <section id="caracteristicas" class="section-caracteristicas">
+    <h2>O que nos torna únicos</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Qualidade Premium</h3>
+        <p>Nossas roupas são feitas com materiais da mais alta qualidade para garantir durabilidade e conforto.</p>
+      </div>
+      <div class="card">
+        <h3>Design Exclusivo</h3>
+        <p>Cada peça é desenhada pensando em você, para destacar seu estilo único e elegante.</p>
+      </div>
+      <div class="card">
+        <h3>Atendimento Personalizado</h3>
+        <p>Oferecemos um atendimento excepcional para ajudar você a encontrar a peça perfeita.</p>
+      </div>
+      <div class="card">
+        <h3>Entregas Rápidas</h3>
+        <p>Receba suas compras rapidamente, com entregas rápidas e seguras em todo o Brasil.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Produtos -->
+  <section id="produtos" class="section-produtos">
+    <h2>Nossos produtos</h2>
+
+    <div class="items">
+
+      <div class="item active">
+        <img src="img/image-01.png" alt="">
+        <h4>CAMISETA ESTAMPADA</h4>
+        <a href="https://wa.me/5581993381512" target="_blank">Comprar</a>
+      </div>
+
+      <div class=" item next">
+        <img src="img/image-02.png" alt="">
+        <h4>CROPPED MANGA LONGA</h4>
+        <a href="https://wa.me/5581993381512" target="_blank">Comprar</a>
+      </div>
+
+      <div class="item">
+        <img src="img/image-03.png" alt="">
+        <h4>CAMISETA LISA</h4>
+        <a href="https://wa.me/5581993381512" target="_blank">Comprar</a>
+      </div>
+
+      <div class="item">
+        <img src="img/image-04.png" alt="">
+        <h4>CAMISÃO</h4>
+        <a href="https://wa.me/5581993381512" target="_blank">Comprar</a>
+      </div>
+
+      <div class="item prev">
+        <img src="img/image-05.png" alt="">
+        <h4>CROPPED</h4>
+        <a href="https://wa.me/5581993381512" target="_blank">Comprar</a>
+      </div>
+
+      <div class="button-container">
+        <div class="button"><i class='bx bx-chevron-left'></i></div>
+        <div class="button"><i class='bx bx-chevron-right'></i></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Comentários -->
+  <section id="comentarios" class="section-comentarios">
+    <h2>O que nossas clientes dizem</h2>
+
+    <div class="container">
+      <div class="card-carousel">
+        <div class="card" id="1">
+          <div class="image-container"></div>
+
+          <div class="avaliation">
+            Maria Izabel
+            <div class="stars">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+          </div>
+          <p>"Peças lindas e de ótima qualidade. A entrega foi rápida e eficiente. Recomendo!"</p>
+        </div>
+        <div class="card" id="2">
+          <div class="image-container"></div>
+          <div class="avaliation">
+            Antonia Gonçalves
+            <div class="stars">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+          </div>
+          <p>"Atendimento impecável e muita variedade. Recebi meu pedido sem qualquer atraso!"</p>
+        </div>
+        <div class="card" id="3">
+          <div class="image-container"></div>
+          <div class="avaliation">
+            Anna Cecyllya
+            <div class="stars">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+          </div>
+          <p>"Adorei a experiência de compra! As roupas são incríveis e o preço vale muito a pena."</p>
+        </div>
+        <div class="card" id="4">
+          <div class="image-container"></div>
+          <div class="avaliation">
+            Adriele Ramos
+            <div class="stars">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+          </div>
+          <p>"Comprei pela primeira vez e amei! Produtos excelentes e com um ótimo acabamento."</p>
+        </div>
+        <div class="card" id="5">
+          <div class="image-container"></div>
+          <div class="avaliation">
+            Maria Socorro
+            <div class="stars">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+          </div>
+          <p> "Fiquei encantada com a loja! As roupas têm um ótimo caimento e o atendimento foi super prestativo e
+            rápido."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2024 Adriele Ramos. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+
+</html>
