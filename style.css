@@ -433,7 +433,7 @@ footer {
 
   /* Seção menu */
   header {
-    background: rgba(86, 86, 86, 0.339);
+    background: rgba(0, 0, 0, 0.339);
     box-shadow: 0 4px 30px rgba(105, 105, 105, 0.1);
     backdrop-filter: blur(8.9px);
     -webkit-backdrop-filter: blur(8.9px);
@@ -515,17 +515,22 @@ footer {
 
   .section-home .home-text {
     max-width: 100%;
-    /* text-align: center; */
+    text-align: center;
   }
 
   .section-home .home-text .headline {
-    font-size: 4rem;
+    font-size: 3.85rem;
+    margin-bottom: 1rem;
+  }
+
+  .section-home .home-text p {
+    font-size: 1.5rem;
   }
 
   .section-home .btn {
-    padding: 0.4rem 1rem;
-    font-size: 0.8rem;
-    margin-top: 3rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin-top: 4rem;
     animation: effect 0.7s linear infinite;
   }
 
@@ -554,8 +559,8 @@ footer {
   }
 
   .items .item {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
   }
 
   .item img {
@@ -589,8 +594,8 @@ footer {
     padding: 4rem 2rem 1rem;
   }
 
-  h2 {
-    font-size: 1.75rem;
+  section h2 {
+    font-size: 2.88rem;
   }
 
   /* Seção menu */
@@ -680,15 +685,22 @@ footer {
   }
 
   .home-text {
-    max-width: 91%;
+    max-width: 100%;
     text-align: center;
   }
 
   .home-text .headline {
-    font-size: 3rem;
+    font-size: 5rem;
+  }
+
+  .home-text p {
+    font-size: 2rem;
+    margin-bottom: 5rem;
   }
 
   .section-home .btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.8rem;
     animation: effect 0.8s linear infinite;
   }
 
@@ -699,8 +711,16 @@ footer {
   }
 
   .section-caracteristicas .card {
-    margin-bottom: 1rem;
-    padding: 1.75rem 2rem;
+    margin: 2rem 0;
+    padding: 1.5rem;
+  }
+
+  .section-caracteristicas .card h3 {
+    font-size: 2rem;
+  }
+
+  .section-caracteristicas .card p {
+    font-size: 1.5rem;
   }
 
   /* Seção produtos */
@@ -709,8 +729,8 @@ footer {
   }
 
   .items .item {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
   }
 
   .item img {
@@ -724,7 +744,24 @@ footer {
 
   /* Seção comentarios */
   .section-comentarios {
-    gap: 5rem;
+    background: none;
+  }
+
+  .section-comentarios .container {
+    margin: 0;
+  }
+
+  .section-comentarios .card-carousel {
+    margin-top: 8rem;
+  }
+
+  .section-comentarios .card-carousel .card {
+    height: var(--card-height);
+    padding: 2rem;
+  }
+
+  .section-comentarios .card-carousel .card p {
+    font-size: 1rem;
   }
 }
 
