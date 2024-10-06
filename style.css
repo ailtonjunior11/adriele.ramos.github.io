@@ -9,6 +9,7 @@
   font-style: normal;
   scroll-behavior: smooth;
   text-decoration: none;
+  color: var(--cinza);
 }
 
 /* Cores */
@@ -28,7 +29,6 @@
 body {
   height: 100dvh;
   background-color: var(--rosa-claro);
-  color: var(--cinza);
 }
 
 section {
@@ -423,78 +423,10 @@ footer {
   color: var(--cinza-medio);
 }
 
-@media screen and (min-width: 320px) {
-  /* Global */
-  section {
-    padding: 6rem 1rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  /* Seção home */
-  .section-home .home-content {
-    display: flex;
-    justify-content: center;
-  }
-
-  .home-text {
-    width: 90vw;
-  }
-
-  .home-text p {
-    margin-bottom: 2rem;
-  }
-
-  .home-text a {
-    padding: 0.5rem 0.8rem;
-  }
-
-  .btn:hover {
-    animation: none;
-  }
-
-  /* Seção caracteristicas */
-  .section-caracteristicas h2 {
-    margin-bottom: 2rem;
-  }
-
-  .section-caracteristicas .card {
-    padding: 1rem;
-    margin-top: 2rem;
-  }
-
-  .section-caracteristicas .card h3 {
-    font-size: 1rem;
-  }
-
-  .section-caracteristicas .card p {
-    font-size: 0.85rem;
-    margin-top: 0.55rem;
-  }
-
-  /* Seção produtos */
-  .section-produtos .items {
-    margin-top: 1.25rem;
-  }
-
-  /* Seção comentatios */
-  .section-comentarios {
-    background: none;
-    gap: 4rem;
-  }
-
-  /* Rodapé */
-  footer {
-    font-size: 0.8rem;
-  }
-}
-
 @media screen and (max-width: 768px) {
   /* Global */
   section {
-    padding: 5rem 2rem 1rem;
+    padding: 2rem 2rem 0;
     background-color: var(--rosa-claro);
     box-shadow: 0 0 50px var(--rosa-medio);
   }
@@ -591,6 +523,9 @@ footer {
   }
 
   .section-home .btn {
+    padding: 0.4rem 1rem;
+    font-size: 0.8rem;
+    margin-top: 3rem;
     animation: effect 0.7s linear infinite;
   }
 
@@ -615,7 +550,7 @@ footer {
   }
 
   .items {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   .items .item {
@@ -643,7 +578,7 @@ footer {
   /* Seção comentatios */
   .section-comentarios {
     background: none;
-    gap: 3rem;
+    gap: 4rem;
   }
 }
 
@@ -757,9 +692,6 @@ footer {
   }
 
   /* Seção caracteristicas */
-  .section-caracteristicas {
-    background: none;
-  }
 
   .section-caracteristicas .cards {
     display: block;
@@ -802,7 +734,7 @@ footer {
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 400;
     cursor: default;
   }
@@ -814,14 +746,23 @@ footer {
   }
 
   .section-home .home-text {
-    max-width: 50%;
+    max-width: 60%;
   }
 
   .section-home .headline {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
-  .section-home .btn:hover {
+  .section-home .home-text p {
+    font-size: 1.45rem;
+  }
+
+  .section-home .btn {
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .section-home .btn .section-home .btn:hover {
     animation: effect 0.9s linear infinite;
   }
 
