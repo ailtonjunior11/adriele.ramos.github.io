@@ -426,7 +426,7 @@ footer {
 @media screen and (max-width: 768px) {
   /* Global */
   section {
-    padding: 2rem 2rem 0;
+    padding: 4rem 2rem 0;
     background-color: var(--rosa-claro);
     box-shadow: 0 0 50px var(--rosa-medio);
   }
@@ -515,7 +515,7 @@ footer {
 
   .section-home .home-text {
     max-width: 100%;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .section-home .home-text .headline {
@@ -536,7 +536,7 @@ footer {
 
   .cards {
     display: block;
-    margin-top: 2rem;
+    margin-top: 5rem;
   }
 
   .card {
@@ -578,7 +578,8 @@ footer {
   /* Seção comentatios */
   .section-comentarios {
     background: none;
-    gap: 4rem;
+    gap: 8rem;
+    text-align: center;
   }
 }
 
